@@ -31,3 +31,4 @@ exports.cancelOrder = async (req, res) => {
   await Order.cancelOrder(req.params.id);
   res.redirect('/');
 };
+
